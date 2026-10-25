@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "Server.js",
+  "type": "module",
   "scripts": {
+    "start": "node Server.js",
+    "dev": "nodemon Server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,9 +20,16 @@
   },
   "homepage": "https://github.com/priyank-solanki-5/Quick-Share-Web-App#readme",
   "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "cloudinary": "^2.11.0",
     "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "mongoose": "^9.9.3",
-    "nodemon": "^3.1.14"
+    "multer": "^2.2.0",
+    "nodemon": "^3.1.14",
+    "qrcode": "^1.5.4",
+    "streamifier": "^0.1.1",
+    "tailwindcss": "^4.3.3"
   }
 }
